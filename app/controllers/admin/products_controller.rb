@@ -1,5 +1,7 @@
 class Admin::ProductsController < ApplicationController
-
+# Add Env variables with authentication found in .env file
+  http_basic_authenticate_with name: ENV['ADMIN_USERNAME'], password: ENV['ADMIN_PASSWORD']
+#end
   def index
     @products = Product.order(id: :desc).all
   end
