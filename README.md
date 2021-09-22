@@ -1,7 +1,13 @@
 # Jungle
 
-A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example. Tested using Rspec Capybara and Poltergiest.
+A mini e-commerce application built with Rails 4.2, showing products that can be added to card and payment facility through stripe. 
 
+Some features added: - 
+- conditional formatting for Empty Cart, sold out badge
+- Separate Admin login
+- Admin Dashboard with counts for products
+- User Authentication
+- TDD and BDD, tested pages using Rspec Capybara and Poltergiest.
 
 
 ## Setup
