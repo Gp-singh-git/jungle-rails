@@ -21,10 +21,10 @@ RSpec.feature "Visitor clicks on a product in home page", type: :feature, js: tr
     visit root_path
 
     find(".product:nth-of-type(1) img").click
-    save_screenshot
+    
     expect(page).to have_content("Description")
     expect(page).to have_content("Quantity")
-    save_screenshot
+    # save_screenshot
   end
   
 end
