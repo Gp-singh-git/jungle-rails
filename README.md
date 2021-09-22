@@ -28,7 +28,8 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 * Stripe
 
 ## Screenshots
-![]()
-![]()
-![]()
-![]()
+![Home Page](https://github.com/Gp-singh-git/jungle-rails/blob/master/public/images/homepage.png?raw=true)
+![Products](https://github.com/Gp-singh-git/jungle-rails/blob/master/public/images/product_dashboard.png?raw=true
+)
+![Categories](https://github.com/Gp-singh-git/jungle-rails/blob/master/public/images/categories.png?raw=true)
+![Cart](https://github.com/Gp-singh-git/jungle-rails/blob/master/public/images/cart.png?raw=true)
